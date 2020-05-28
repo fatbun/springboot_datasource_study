@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    master:
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/mybatis_study
+    slave:
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/mybatis_study2
